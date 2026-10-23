@@ -1,0 +1,26 @@
+$kind: http-request
+url: "{{base_url}}/tasks"
+method: GET
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\": \"belajar Laravel 12\",\r
+
+    \    \"description\": \"Routing, Controlleer, Eloquent\",\r
+
+    \    \"is_complated\": true\r
+
+    }"
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test("Status code is 200", function () {
+          pm.response.to.have.status(200);
+      });
+
+      pm.test("Response body is an array", function () {
+          pm.response.to.be.json;
+          pm.expect(pm.response.json()).to.be.an('array');
+      });
+order: 920
