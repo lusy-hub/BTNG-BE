@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'c7f56c2f4a05ea5777d34efcbe5a206de4aad2f3',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -41,9 +41,9 @@
             ),
         ),
         'dedoc/scramble' => array(
-            'pretty_version' => 'v0.13.49',
-            'version' => '0.13.49.0',
-            'reference' => '6c10396675a34c46a034b6ed3545485867cc836c',
+            'pretty_version' => 'v0.13.52',
+            'version' => '0.13.52.0',
+            'reference' => '73ec5bb926023716ca0006e34ef5ba52711fbead',
             'type' => 'library',
             'install_path' => __DIR__ . '/../dedoc/scramble',
             'aliases' => array(),
@@ -407,9 +407,9 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'c7f56c2f4a05ea5777d34efcbe5a206de4aad2f3',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
